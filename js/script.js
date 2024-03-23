@@ -137,6 +137,7 @@ form.addEventListener("submit", (e) => {
 
     if (!fullName.classList.contains("error") && !email.classList.contains("error") && !phone.classList.contains("error") && !subject.classList.contains("error") && !mess.classList.contains("error")) {
        sendEmail();
+       console.log("OK");
 
        form.reset();
        return false;
