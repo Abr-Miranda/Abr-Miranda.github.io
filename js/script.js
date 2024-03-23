@@ -75,6 +75,7 @@ function sendEmail() {
                 icon: "success"
               });
         }
+        console.log(message);
       }
     );
 }
