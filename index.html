@@ -1,0 +1,372 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Website</title>
+
+    <link rel="stylesheet" href="css/Style.css">
+
+    <!-- box icons -->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+
+<body>
+
+    <!-- header design -->
+    <header class="header">
+        <a href="#" class="logo">David.<span class="animate" style="--i:1;"></span></a>
+
+        <div class='bx bx-menu' id="menu-icon"> <span class="animate" style="-i:2;"></span></div>
+
+        <nav class="navbar">
+            <a href="#home" class="active">Inicio</a>
+            <a href="#about">Acerca de</a>
+            <a href="#education">Educación</a>
+            <a href="#skills">Habilidades</a>
+            <a href="#contact">Contacto</a>
+
+            <span class="active-nav"></span>
+            <span class="animate" style="--i:2;"></span>
+        </nav>
+    </header>
+
+    <!-- home section design -->
+    <section class="home show-animate" id="home">
+        <div class="home-content">
+            <h1>Hola, soy <span>David Miranda</span><span class="animate" style="-i:2;"></span></h1>
+            <div class="text-animate">
+                <h3>Desarrollador Web - Jr.</h3>
+                <span class="animate" style="--i:3;"></span>
+            </div>
+            <p>
+                Soy una persona enormemente apasionada por la programación,
+                desde los 16 años he conocido este maravilloso mundo y decidí aplicar mis conocimientos
+                al desarrollo web. Llevé a cabo el curso "CS50's Web Programming with Python and JavaScript" impartido 
+                por la Universidad de Harvard, completando un total de seis proyectos donde se aplican multitud
+                de temas sustanciales, tanto en el desarrollo Frontend como en el desarrollo Backend.
+                <span class="animate" style="--i:4;"></span>
+            </p>
+            
+            <div class="btn-box">
+                <a href="https://www.youtube.com/@Abr-Miranda/videos" class="btn">Ver Proyectos</a>
+                <a href="https://courses.edx.org/certificates/8dad943ea2694784bca7901ad491234b" class="btn">Certificado</a>
+                <span class="animate" style="--i:5;"></span>
+            </div>
+        </div>
+
+        <!-- <div class="home-sci">
+            <a href="#"><i class='bx bxl-facebook'></i></a>
+            <a href="#"><i class='bx bxl-whatsapp' ></i></a>
+            <a href="https://www.linkedin.com/in/abraham-david-miranda-orozco-6393741a0/"><i class='bx bxl-linkedin' ></i></a>
+            <span class="animate" style="--i:6;"></span>
+        </div> -->
+
+        <div class="home-imgHover"></div>
+        <span class="animate home-img" style="--i:7;"></span>
+    </section>
+
+    <!-- about section design -->
+    <section class="about" id="about">
+        <h2 class="heading">Acerca de <span>Mí</span><span class="animate scroll" style="--i:1;"></span></h2>
+    
+        <div class="about-img">
+            <img src="images/profile.png" alt="">
+            <span class="circle-spin"></span>
+            <span class="animate scroll" style="--i:2;"></span>
+        </div>
+
+        <div class="about-content">
+            <h3>Desarrollador Web!<span class="animate scroll" style="--i:3;"></span></h3>
+            <p> Estudié en una gran preparatoria técnica y físico matemática donde obtuve por primera vez conocimientos
+                de programación, fue a partir de aquí que me cautivé por este mundo. Más adelante, estudié la carrera de
+                ingeniería mecatrónica en la Universidad de Guanajuato, especialmente enfocada a la rama de programación
+                donde aprendí multitud de lenguajes de programación. Realicé mis prácticas profesionales en una empresa 
+                Alemana donde cada dos semanas junto a un compañero exponía el avance de nuestro proyecto frente a trece
+                gerentes de la planta compitiendo contra otras universidades y obteniendo finalmente el segundo lugar.
+                Semanas después me contactaron para ofrecerme la oportunidad de formar parte del equipo de la empresa, por
+                lo que, entusiasmadamente accedí y estuve trabajando, obteniendo conocimientos de todo tipo.  
+                <span class="animate scroll" style="--i:4;"></span>
+            </p>
+       
+            <div class="btn-box btns">
+                <a href="CV_ADMO.pdf" class="btn">Descargar CV</a>
+                <span class="animate scroll" style="--i:5;"></span>
+            </div>
+        </div>
+    </section>
+    <!-- education section design -->
+    <section class="education" id="education">
+        <h2 class="heading">Mi <span>Viaje</span><span class="animate scroll" style="--i:1;"></span></h2>
+    
+        <div class="education-row">
+            <div class="education-column">
+                <h3 class="title">Educación<span class="animate scroll" style="--i:2;"></span></h3>
+                <div class="education-box">
+                    <div class="education-content">
+                        <div class="content">
+                            <!-- <div class="year"><i class='bx bxs-calendar'></i> 2012 - 2015</div> -->
+                            <h3>Vocacional - Preparatoria</h3>
+                            <p class="education-p">
+                                Escuela de Bachilleres "18 de Marzo" Vocacional. Ubicada en Salamanca, Guanajuato, México.
+                                Es una escuela técnica y físico matemática que capacita al alumno con competente conocimiento ingenieril,
+                                facilitando su ingreso a universidades de alto prestigio.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="education-content">
+                        <div class="content">
+                            <!-- <div class="year"><i class='bx bxs-calendar'></i> 2015 - 20</div> -->
+                            <h3>DICIS - Universidad de Guanajuato</h3>
+                            <p class="education-p">
+                                Universidad de Guanajuato - División de Ingenierías Campus Irapuato - Salamanca (DICIS). Ubicada
+                                en Salamanca, Guanajuato, México.
+                                Es una universidad que cuenta con multitud de ingenierías como lo son la ingeniería mecatrónica, eléctrica,
+                                mecánica, electrónica e inteligencia artificial. Además de ser una universidad destacada a nivel estatal.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="education-content">
+                        <div class="content">
+                            <!-- <div class="year"><i class='bx bxs-calendar'></i> 2019 - 2020</div> -->
+                            <h3>CS50's Web Programming with Python and JavaScript - Harvard University</h3>
+                            <p class="education-p">
+                                Curso profesional que otorga vasto conocimiento referente al mundo del desarrollo web. Enseña temas
+                                característicos relacionados con el desarrollo Frontend y Backend. Asigna seis proyectos donde se 
+                                aplican cada uno de los conocimientos obtenidos, obligando al alumno a realizar desarrollo Full Stack.
+                            </p>
+                        </div>
+                    </div>
+
+                    <span class="animate scroll" style="--i:3;"></span>
+                </div>
+            </div>
+
+            <div class="education-column">
+                <h3 class="title">Experiencia<span class="animate scroll" style="--i:4;"></span></h3>
+                <div class="education-box">
+                    <div class="education-content">
+                        <div class="content">
+                            <!-- <div class="year"><i class='bx bxs-calendar'></i> 2017 - 2018</div> -->
+                            <h3>Página de Comercio - Proyecto 2 (Harvard University)</h3>
+                            <p class="education-p">
+                                Página de comercio electrónico que permite el registro de nuevos usuarios que luego permitirá la interacción con 
+                                publicaciones de ventas de otros usuarios. El no inicio de sesion solo concederá acceder a 
+                                algunas de las funciones de la palicación. La aplicación permite:
+                                <ul>
+                                    <li>Realizar ofertas igual o mayores a la oferta actual en la publicación.</li>
+                                    <li>Comentar las publicaciones.</li>
+                                    <li>Agregar publicaciones a una lista de seguimiento (Watchlist).</li>
+                                    <li>Realizar publicaciones de venta con oferta inicial.</li>
+                                    <li>Cerrar publicaciones propias cuando se haya alcanzado una oferta deseada.</li>
+                                    <li>Acceder a publicaciones activas.</li>
+                                    <li>Acceder a las categorías.</li>
+                                    <li>Acceder a la lista de seguimiento (Watchlist)</li>
+                                    <li>Acceder a las publicaciones propias cerradas.</li>
+                                    <li>Acceder a las publicaciones ganadas.</li>
+                                    <li>Más...</li>
+                                </ul>
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="education-content">
+                        <div class="content">
+                            <!-- <div class="year"><i class='bx bxs-calendar'></i> 2017 - 2018</div> -->
+                            <h3>Página Red Social - Proyecto 4 (Harvard University)</h3>
+                            <p class="education-p">
+                                Permite el registro de usuarios. Los usuarios registrados que hayan iniciado sesión, tendrán la 
+                                posibilidad de:
+                                <ul>
+                                    <li>Realizar publicaciones.</li>
+                                    <li>Editar publicaciones propias.</li>
+                                    <li>Seguir o dejar de seguir a otros usuarios.</li>
+                                    <li>Dar “Like” o “Unlike” a publicaciones de otros usuarios</li>
+                                    <li>Mostrar un máximo de 10 publicaciones por cada “página de publicaciones”.</li>
+                                    <li>Acceder a todas las publicaciones realizadas por todos los usuarios.</li>
+                                    <li>Acceder a nuestro perfil de usuario.</li>
+                                    <li>Acceder a todas las publicaciones realizadas por los usuarios a los que sigue nuestro usuario.</li>
+                                    <li>Más...
+                                </ul>
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="education-content">
+                        <div class="content">
+                            <!-- <div class="year"><i class='bx bxs-calendar'></i> 2019 - 2020</div> -->
+                            <h3>Página de Preguntas y Respuestas - Proyecto Final (Harvard University)</h3>
+                            <p class="education-p">
+                                Página web de preguntas y respuestas que permite el registro 
+                                de usuarios el concederá la posibilidad interactuar con las preguntas de otros usuarios. Hay 
+                                tres tipos de preguntas, las no resueltas (identificadas con el color blanco), las resueltas 
+                                (identificadas con el color verde) y las preguntas resaltadas. Estas últimas contienen una 
+                                animación de cambio de color continuo que hace que resalten sobre las demás, haciendo que 
+                                sea más probable que otros usuarios respondan estas preguntas. Este tipo de preguntas tienen 
+                                un costo realizarlas (20 score), cuando un usuario responde preguntas de otros usuarios, estos 
+                                pueden puntuar la respuesta, otorgando “score” al dueño de la respuesta y haciendo posible 
+                                que este usuario realice preguntas resaltadas si así lo desea. La aplicación permite:
+                                <ul>
+                                    <li>Realizar preguntas asignándolas a diferentes categorías.</li>
+                                    <li>Responder preguntas.</li>
+                                    <li>Puntuar respuestas de otros usuarios.</li>
+                                    <li>Realizar preguntas resaltadas haciendo uso del puntaje propio acumulado.</li>
+                                    <li>Buscar preguntas que contengan el texto o parte del texto deseado.</li>
+                                    <li>Colocar preguntas propias como resueltas cuando existe al menos una pregunta.</li>
+                                    <li>Eliminar preguntas propias cuando la pregunta no ha sido dada como resuelta.</li>
+                                    <li>Acceder a la vista ampliada de la pregunta.</li>
+                                    <li>Acceder a los perfiles de los usuarios haciendo clic sobre sus nombres de usuario.</li>
+                                    <li>Acceder a la sección “Home” donde se encuentran todas las preguntas ordenadas por número 
+                                    de visualizaciones en orden ascendente.</li>
+                                    <li>Acceder a las categorías de las preguntas.</li>
+                                    <li>Acceder a nuestro perfil con la posibilidad de cambiar la imagen de perfil actual.</li>
+                                    <li>Acceder a la sección “My Questions” propia y de otros usuarios desde su perfil.</li>
+                                    <li>Implementación de notificaciones.</li>
+                                    <li>Más...</li>
+                                </ul>
+                                </p>
+                            </div>
+                        </div>
+
+                    <span class="animate scroll" style="--i:6;"></span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- skills section design -->
+    <section class="skills" id="skills">
+        <h2 class="heading">Mis <span>Habilidades</span><span class="animate scroll" style="--i:1;"></span></h2>
+
+        <div class="skills-row">
+            <div class="skills-column">
+                <h3 class="title">Codificación<span class="animate scroll" style="--i:2;"></span></h3>
+                <div class="skills-box">
+                    <div class="skills-content">
+                        <div class="progress">
+                            <h3>HTML <span>75%</span></h3>
+                            <div class="bar"><span></span></div>
+                        </div>
+
+                        <div class="progress">
+                            <h3>CSS <span>70%</span></h3>
+                            <div class="bar"><span></span></div>
+                        </div>
+
+                        <div class="progress">
+                            <h3>JavaScript <span>70%</span></h3>
+                            <div class="bar"><span></span></div>
+                        </div>
+
+                        <div class="progress">
+                            <h3>Python <span>80%</span></h3>
+                            <div class="bar"><span></span></div>
+                        </div>
+                    </div>
+                    <span class="animate scroll" style="--i:3;"></span>
+                </div>
+            </div>
+
+            <div class="skills-column">
+                <h3 class="title">Habilidades Profesionales<span class="animate scroll" style="--i:5;"></span></h3>
+                <div class="skills-box">
+                    <div class="skills-content">
+                        <div class="progress">
+                            <h3>Diseño Web <span>80%</span></h3>
+                            <div class="bar"><span></span></div>
+                        </div>
+
+                        <div class="progress">
+                            <h3>Desarrollo Web <span>75%</span></h3>
+                            <div class="bar"><span></span></div>
+                        </div>
+
+                        <div class="progress">
+                            <h3>Git <span>65%</span></h3>
+                            <div class="bar"><span></span></div>
+                        </div>
+
+                        <div class="progress">
+                            <h3>Interfaces de Usuario <span>85%</span></h3>
+                            <div class="bar"><span></span></div>
+                        </div>
+                    </div>
+
+                    <span class="animate scroll" style="--i:6;"></span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- contact section design -->
+    <section class="contact" id="contact">
+        <h2 class="heading">Contáctame<span>!</span><span class="animate scroll" style="--i:1;"></span></h2>
+
+        <form action="#">
+            <div class="input-box">
+                <div class="input-field">
+                    <input type="text" placeholder="Nombre Completo" id="name" class="item">
+                    <span class="focus"></span>
+                    <div class="error-txt">Nombre Completo no puede quedar vacío</div>
+                </div>
+                <div class="input-field">
+                    <input type="text" placeholder="Email" id="email" class="item">
+                    <span class="focus"></span>
+                    <div class="error-txt email">Email no puede quedar vacío</div>
+                </div>
+
+                <span class="animate scroll" style="--i:3;"></span>
+            </div>
+
+            <div class="input-box">
+                <div class="input-field">
+                    <input type="number" placeholder="Teléfono" id="phone" class="item">
+                    <span class="focus"></span>
+                    <div class="error-txt">Teléfono no puede quedar vacío</div>
+                </div>
+                <div class="input-field">
+                    <input type="text" placeholder="Asunto" id="subject" class="item">
+                    <span class="focus"></span>
+                    <div class="error-txt">Asunto no puede quedar vacío</div>
+                </div>
+
+                <span class="animate scroll" style="--i:5;"></span>
+            </div>
+            <div class="textarea-field">
+                <textarea id="message" name="" id="" cols="30" rows="10" placeholder="Tu Mensaje" class="item"></textarea>
+                <span class="focus"></span>
+                <span class="animate scroll" style="--i:7;"></span>
+            </div>
+            <div class="btn-box btns">
+                <button type="submit" class="btn">Enviar</button>
+            
+                <span class="animate scroll" style="--i:9;"></span>
+            </div>
+        </form>
+    </section>
+
+    <!-- footer design -->
+    <footer class="footer">
+        <div class="footer-text">
+            <p>Copyright &copy; 2023 by Codehal | All Rights Reserved.</p>
+            
+            <span class="animate scroll" style="--i:1;"></span>
+        </div>
+
+        <div class="footer-iconTop">
+            <a href="#"><i class='bx bx-up-arrow-alt'></i></a>
+       
+            <span class="animate scroll" style="--i:3;"></span>
+        </div>
+    </footer>
+
+    <script src="https://smtpjs.com/v3/smtp.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="js/script.js"></script>
+</body>
+
+</html>
